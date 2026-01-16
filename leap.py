@@ -4,7 +4,7 @@ def is_leap(year):
 
 if __name__ == "__main__":
     y = int(input("Enter a year: "))
-    if is_leap(y)
-      print(f"{y} is leap year.")
-else:
-      print(f"{y} is not leap year.")
+    if is_leap(y):
+        print(f"{y} is a leap year.")
+    else:
+        print(f"{y} is not a leap year.")
